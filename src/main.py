@@ -66,4 +66,4 @@ def index():
 
 # Run the app locally.
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
