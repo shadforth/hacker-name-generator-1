@@ -62,8 +62,3 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return render_template("index.html", name=generate_hacker_name())
-
-
-# Run the app locally.
-if __name__ == "__main__":
-    app.run()
