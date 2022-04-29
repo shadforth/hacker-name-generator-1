@@ -10,7 +10,7 @@ Generate a cool hacker name to show off.
 ## Getting Started
 
 ### Prerequisites
-* Python 3.9
+* Python
 
 ### Modules
 ````
