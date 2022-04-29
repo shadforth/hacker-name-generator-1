@@ -24,10 +24,15 @@ pip install gunicorn
 ## Deployment
 To run the program simply run the code in your favourite IDE that supports Python. Alternatively, you can start the web app through the command line, or via a thirdy-party host.
 
+Refer to the Flask documentation for more information: https://flask.palletsprojects.com/en/2.1.x/quickstart/
+
 ````
 # Deploy the flask application locally.
-export FLASK_APP=app
-flask run
+$ export FLASK_APP=app
+$ flask run
+
+> set FLASK_APP=app
+> flask run
 
 # Start command when hosted by by third-party.
 gunicorn app:app
