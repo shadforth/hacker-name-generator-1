@@ -27,10 +27,11 @@ To run the program simply run the code in your favourite IDE that supports Pytho
 Refer to the Flask documentation for more information: https://flask.palletsprojects.com/en/2.1.x/quickstart/
 
 ````
-# Deploy the flask application locally.
+# Deploy the flask application locally with Bash.
 $ export FLASK_APP=app
 $ flask run
 
+# Deploy the flask application locally with CMD.
 > set FLASK_APP=app
 > flask run
 
