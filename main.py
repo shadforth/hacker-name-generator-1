@@ -4,10 +4,10 @@ from flask import Flask, render_template
 
 import random
 
-from src.data.adjectives import adjectives
-from src.data.nouns import nouns
-from src.data.seperators import separators
-from src.data.leet import leet
+from data.adjectives import adjectives
+from data.nouns import nouns
+from data.seperators import separators
+from data.leet import leet
 
 # ---------------------------------- MAIN ---------------------------------- #
 
