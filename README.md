@@ -16,10 +16,19 @@ Generate a cool hacker name to show off.
 ````
 # Flask 2.1.1
 pip install flask
+
+# Gunicorn 20.1.0
+pip install gunicorn
 ````
 
 ## Deployment
+To run the program simply run the code in your favourite IDE that supports Python. Alternatively, you can start the web app through the command line, or via a thirdy-party host.
+
 ````
-# Deploy the flask application.
+# Deploy the flask application locally.
+export FLASK_APP=app
 flask run
+
+# Start command when hosted by by third-party.
+gunicorn app:app
 ````
