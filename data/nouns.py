@@ -246,5 +246,5 @@ nouns = [
     "consequence",
     "client",
     "mightnight",
-    "indication",
+    "indication"
 ]

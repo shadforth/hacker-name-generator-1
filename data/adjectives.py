@@ -246,5 +246,5 @@ adjectives = [
     "gigantic",
     "tepid",
     "milky",
-    "daunting",
+    "daunting"
 ]
