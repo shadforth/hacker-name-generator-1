@@ -5,12 +5,14 @@ Generate a cool hacker name to show off.
 * [Getting Started](#getting-started)
 * [Prerequisites](#prerequisites)
 * [Modules](#modules)
+* [Running the Application Locally](#running-the-application-locally)
 * [Deployment](#deployment)
 
 ## Getting Started
+Refer to the Flask documentation for more information on how to run or host a Flask application: https://flask.palletsprojects.com/en/2.1.x/quickstart/
 
 ### Prerequisites
-* Python
+* [Python](https://www.python.org/downloads/)
 
 ### Modules
 ````
@@ -21,7 +23,7 @@ pip install flask
 pip install gunicorn
 ````
 
-## Deployment
+### Running the Application Locally
 ````
 # Run the program.
 python main.py
@@ -33,10 +35,10 @@ $ flask run
 # Deploy the flask application locally with CMD.
 > set FLASK_APP=app
 > flask run
+````
 
+## Deployment
+````
 # Start command when hosted by third-party.
 gunicorn app:app
 ````
-Alternatively, run the program in your favourite IDE that supports Python.
-
-Refer to the Flask documentation for more information: https://flask.palletsprojects.com/en/2.1.x/quickstart/
